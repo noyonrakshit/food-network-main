@@ -1,0 +1,101 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+.half-width img{
+    width: 60%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 40px;
+}
+.top-banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.Experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+    
+    .center{
+        padding-top: 5%;
+        text-align: center;
+        padding-left: 27%;
+        padding-right: 25%;
+        padding-bottom: 3%;
+    
+    }
+    .flex-recipie{
+        display:flex;
+        padding-bottom: 9%;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .Recipie{
+        box-shadow: 5px 5px 5px 5px rgb(29, 206, 6);
+        padding:2% 2% 0 2% ;
+         width: 26%;
+         border-radius: 40px;
+         margin-left: 4%;
+         
+    }
+    
+    .Recipie img{
+        width: 100%;
+        border-radius: 20px;
+        height: 50%;
+        
+    }
+.social{
+    width: 100%;
+    margin-left: 20px;
+    height: 50%;
+}
+.flex-box-shadow{
+    text-align: center;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-left: 13%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+    border border-radius: 20px;
+}
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    color: rgb(133, 127, 105);
+}
+.food-color{
+    color: #FBA24F;
+}
